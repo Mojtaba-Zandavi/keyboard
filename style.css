@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #001C30;
+    height: 100vh;
+    /* width: 100vh; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+  
+  }
+
+p{
+  color: rgb(245, 255, 250);
+  margin-bottom: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+  
+}
+
+button{
+  border-radius: 6px; 
+  border: none; 
+  width: 5vh;
+  height: 5vh;
+  text-align: center;
+  margin: 3px;
+  transition: .5s;
+}
+
+form{
+  width: 100vh;
+  /* height: 5%; */
+  margin-bottom: 15px;
+}
+
+
+
+.Pinky_class_buttons{
+
+  background-color: #176B87 ;
+  
+}
+  
+.Ring_class_buttons{
+  
+  background-color: #64CCC5 ; 
+  
+}
+  
+.Middle_class_buttons{
+  
+  background-color: #FF9EAA ;
+  
+}
+  
+.Pointer_class_buttons1{
+  
+  background-color: #DAFFFB ;
+  
+}
+  
+.pointer_class_buttons2{
+  background-color: #FFD0D0;
+}
+
+
+#delete {
+  width: 10%;
+  
+}
+
+
+#tab {
+  width: 10vh;
+  
+}
+
+
+#capslock {
+  width: 11vh;
+  
+}
+
+
+#return {
+  width: 10vh;
+  
+}
+
+
+#shift {
+  width: 14vh;
+  
+}
+
+button:hover{
+  background-color: #001C30;
+}
